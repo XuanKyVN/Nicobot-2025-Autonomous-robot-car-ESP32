@@ -20,7 +20,7 @@ void read_lora(){
         read_data_ws_mqtt(doc); // Control Motor here( in mqtt .h)
         
          
-      
+      /*
             //--------Setup Mqtt broker----------
         if (doc.containsKey("mqttserver") ){  
        // {"mqttserver":"192.168.0.1", "port":1884, "clientId":"esp32", "username":"robot", "password":"123456", "TopicPub":"robotcar/feedback", "TopicSub":"robotcar/control","MqttEnable": "Enable"}
@@ -52,7 +52,7 @@ void read_lora(){
         
         //-----------------end of mqtt setup------
   
-      }
+      }*/
       
     }
   }
