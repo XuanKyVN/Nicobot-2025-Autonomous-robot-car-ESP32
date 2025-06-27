@@ -159,7 +159,7 @@ server.on(
     wsTimer.setInterval(200);
     mqttTimer.setInterval(200);
     motorTimer.setInterval(1000);
-    loraTimer.setInterval(500);
+    loraTimer.setInterval(200);
     mqttTimer_receive.setInterval(200);
     autoTimer.setInterval(200);
 
